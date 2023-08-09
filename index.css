@@ -98,3 +98,11 @@ body {
     width: 50%;
     height: 100%;
 }
+
+.footer {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: #EAEEFD;
+    font-size: 12px;
+}
