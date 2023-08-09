@@ -1,0 +1,100 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(38,42,127);
+    background: linear-gradient(45deg, rgba(38,42,127,1) 0%, rgba(106,40,124,1) 50%, rgba(255,23,32,1) 100%);
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    min-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.content_container {
+    position: relative;
+    width: 100%;
+    min-width: 1000px;
+    height: 100vh;
+
+}
+
+.painel_ofertas {
+    position: relative;
+    background-color: #FFFF;
+    top: 2%;
+    width: 100%;
+    min-width: 1000px;
+    height: 80px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+#logo1 {
+    width: 20%;
+    height: 99%;
+}
+
+.dados {
+    position: relative;
+    background-color: #EAEEFD;
+    top: 10px;
+    width: 100%;
+    height: 40%;
+    min-height: 275px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.inputRadio {
+    position: relative;
+    height: 40px;
+    width: 150px;
+    left: 20px;
+    display: flex;
+    justify-content: space-start;
+    align-items: center;
+}
+
+
+.inputCheck {
+    position: relative;
+    left: 5px;
+    top: 1vh;
+}
+
+.btn {
+    position: relative;
+    top: 2vh;
+}
+
+.resultado {
+    position: relative;
+    background-color: #EAEEFD;
+    top: 20px;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#resultado {
+    display: none;
+}
+
+#areaResultado {
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
